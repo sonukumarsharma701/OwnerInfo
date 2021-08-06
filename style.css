@@ -1,0 +1,57 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background:url("https://source.unsplash.com/user/erondu/1600x900");
+    z-index: -1;
+}
+.container h1{
+    /* display: none; */
+}
+.content{
+    background-color: white;
+     padding: 10px; 
+    border-radius: 8px;
+    width: 50%;
+    box-shadow: 2px 5px blue ;
+   
+}
+.content h2{
+    margin: 6px 10px;
+}
+.content ul{
+    margin-left: 10px;
+}
+.content ul div{
+    padding: 1px;
+}
+.btn{
+    font-size: 24px;
+    width: 50%;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover{
+
+}
+.btn2{
+    width: 50%;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 5px;
+}
+.btn2:hover{
+    background-color: grey;
+}
